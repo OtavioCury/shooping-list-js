@@ -35,9 +35,9 @@ function createIcon(classes){
 
 function removeItem(e){
   if(e.target.parentElement.classList.contains('remove-item')){
-    e.target.remove();
+    console.log()
+    //e.target.remove();
   }
-  
 }
 
 //Event Listeners
